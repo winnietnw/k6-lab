@@ -26,8 +26,8 @@
   The request used lowercase ingredient and tool names ('pepperoni' and 'knife'), but the API expected the exact names ('Pepperoni' and 'Knife'). This caused some checks to fail. After correcting the names, all checks passed with 100% success rate.
 
 ## Part A
-
 | Step | Test Type | Users | Req/s | p(95) | Max | Failed | Checks |
 |------|-----------|-------|-------|-------|-----|--------|--------|
 | A1 | Smoke | 1 | 0.471445 | 427.42 ms | 460.57 ms | 0.00% | 100% |
 | A2 | Average Load | 3 | 1.26 | 385 ms | 438 ms | 0.00% | 100% |
+| A3 | Stress | 5 | 2.127175 | 365.34 ms | 385.24 ms | 0.00% | 100% |
