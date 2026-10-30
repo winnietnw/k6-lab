@@ -11,3 +11,14 @@
 - Step 0.6, exit code of the normal run and of the run with P95=300:
   Normal run: 0
   P95=300 run: 99
+- Step 0.7, rules that passed, p(95), p(99), exit code after your change:
+  Normal run:
+  - p(95) = 380.73 ms
+  - p(99) = 439.68 ms
+  - Passed rules: All thresholds passed.
+  - Failed rules: None.
+    After changing P95 to 1 ms:
+  - p(95) = 414.98 ms
+  - p(95) threshold failed.
+  - p(99) and other thresholds passed.
+  - Exit code = 99.
