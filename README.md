@@ -22,3 +22,5 @@
   - p(95) threshold failed.
   - p(99) and other thresholds passed.
   - Exit code = 99.
+- Step 0.8, what was wrong, and how the checks showed it:
+  The request used lowercase ingredient and tool names ('pepperoni' and 'knife'), but the API expected the exact names ('Pepperoni' and 'Knife'). This caused some checks to fail. After correcting the names, all checks passed with 100% success rate.
