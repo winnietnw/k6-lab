@@ -7,3 +7,4 @@
   The rate stays below 5 because each virtual user sleeps for 1 second after each request, so it cannot send a new request immediately.
 - Step 0.3: No written response required.
 - Step 0.4: No written response required. all three checks pass.
+- Step 0.5: No written response required.
