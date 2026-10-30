@@ -8,3 +8,6 @@
 - Step 0.3: No written response required.
 - Step 0.4: No written response required. all three checks pass.
 - Step 0.5: No written response required.
+- Step 0.6, exit code of the normal run and of the run with P95=300:
+  Normal run: 0
+  P95=300 run: 99
