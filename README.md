@@ -24,3 +24,9 @@
   - Exit code = 99.
 - Step 0.8, what was wrong, and how the checks showed it:
   The request used lowercase ingredient and tool names ('pepperoni' and 'knife'), but the API expected the exact names ('Pepperoni' and 'Knife'). This caused some checks to fail. After correcting the names, all checks passed with 100% success rate.
+
+## Part A
+
+| Step | Test Type | Users | Req/s | p(95) | Max | Failed | Checks |
+|------|-----------|-------|-------|-------|-----|--------|--------|
+| A1 | Smoke | 1 | 0.471445 | 427.42 ms | 460.57 ms | 0.00% | 100% |
