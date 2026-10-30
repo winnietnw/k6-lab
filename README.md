@@ -31,3 +31,7 @@
 | A1 | Smoke | 1 | 0.471445 | 427.42 ms | 460.57 ms | 0.00% | 100% |
 | A2 | Average Load | 3 | 1.26 | 385 ms | 438 ms | 0.00% | 100% |
 | A3 | Stress | 5 | 2.127175 | 365.34 ms | 385.24 ms | 0.00% | 100% |
+| A4 | Spike | 5 | 1.057408 | 373.18 ms | 520.13 ms | 0.00% | 100% |
+
+- A4, spike moment and recovery time:
+  The spike occurred around 13:32:50–13:33:25 when the number of virtual users increased from 1 to 5. The response time increased during the spike, reaching approximately 489 ms. After the load decreased back to 1 user, the response time returned close to its earlier level within approximately 10–20 seconds.
